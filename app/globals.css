@@ -902,3 +902,20 @@ td .mono-b {
   .stat{border-left:none;border-top:1px solid var(--line);}
   .stat:first-child{border-top:none;}
 }
+
+/* ============================================================
+   API SECTION
+   ============================================================ */
+.api-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;max-width:1000px;margin:0 auto;background:var(--line);}
+.api-pane{background:var(--field);padding:0;}
+.api-pane-label{
+  padding:12px 20px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);
+  border-bottom:1px solid var(--line);
+}
+.api-code{padding:20px;overflow-x:auto;margin:0;}
+.api-code code{
+  font-family:var(--mono);font-size:12px;line-height:1.7;color:var(--pale);white-space:pre;
+}
+@media (max-width:760px){
+  .api-grid{grid-template-columns:1fr;}
+}

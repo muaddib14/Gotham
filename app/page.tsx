@@ -4,6 +4,7 @@ import ScanShell from "./ScanShell";
 import FlowVisualizerDemo from "./FlowVisualizerDemo";
 import Faq from "./Faq";
 import StatsBand from "./StatsBand";
+import ApiSection from "./ApiSection";
 
 export default function Home() {
   return (
@@ -480,6 +481,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* ============ API ============ */}
+      <ApiSection />
 
       {/* ============ HONESTY STRIP ============ */}
       <section className="strip">
