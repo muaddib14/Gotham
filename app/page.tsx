@@ -2,6 +2,7 @@ import Image from "next/image";
 import Reveal from "./Reveal";
 import ScanShell from "./ScanShell";
 import FlowVisualizerDemo from "./FlowVisualizerDemo";
+import Faq from "./Faq";
 
 export default function Home() {
   return (
@@ -486,6 +487,9 @@ export default function Home() {
           Intelligence, not financial advice · sources on every finding · decisions are yours
         </span>
       </section>
+
+      {/* ============ FAQ ============ */}
+      <Faq />
 
       {/* ============ CTA ============ */}
       <section className="cta">
