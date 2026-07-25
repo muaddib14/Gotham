@@ -3,6 +3,7 @@ import Reveal from "./Reveal";
 import ScanShell from "./ScanShell";
 import FlowVisualizerDemo from "./FlowVisualizerDemo";
 import Faq from "./Faq";
+import StatsBand from "./StatsBand";
 
 export default function Home() {
   return (
@@ -102,6 +103,9 @@ export default function Home() {
           <a href="#coverage" className="btn btn-line">Read the docs</a>
         </div>
       </header>
+
+      {/* ============ STATS ============ */}
+      <StatsBand />
 
       {/* ============ SCAN DEMO ============ */}
       <section id="scan">
