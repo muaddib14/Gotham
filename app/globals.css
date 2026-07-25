@@ -90,6 +90,20 @@ nav{
   transition:opacity .2s;
 }
 .nav-cta:hover{opacity:.85;}
+.nav-right{display:flex;align-items:center;gap:14px;}
+.nav-token{
+  font-family:var(--mono);font-weight:600;font-size:11px;letter-spacing:.14em;
+  color:var(--neon);border:1px solid var(--line);padding:8px 14px;
+  transition:border-color .2s;
+}
+.nav-token:hover{border-color:var(--neon);}
+.nav-x{
+  color:var(--dim);font-size:15px;line-height:1;transition:color .2s;
+}
+.nav-x:hover{color:var(--neon);}
+@media (max-width:640px){
+  .nav-token{display:none;}
+}
 
 /* ============================================================
    HERO — engraved sunburst behind the mask, watermark serif,

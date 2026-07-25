@@ -40,7 +40,26 @@ export default function Home() {
           <a href="#engines">Engines</a>
           <a href="#scan">Docs</a>
         </div>
-        <a href="#scan" className="nav-cta">Launch app</a>
+        <div className="nav-right">
+          <a
+            href="https://pump.fun/coin/HzwLHbqXfnmXdv9SM65fXmDieU1MpTR9Zg7GWNyjpump"
+            target="_blank"
+            rel="noreferrer"
+            className="nav-token"
+          >
+            $GOTHAM
+          </a>
+          <a
+            href="https://x.com/gothamintelxyz"
+            target="_blank"
+            rel="noreferrer"
+            className="nav-x"
+            aria-label="GOTHAM on X"
+          >
+            𝕏
+          </a>
+          <a href="#scan" className="nav-cta">Launch app</a>
+        </div>
       </nav>
 
       {/* ============ HERO ============ */}
@@ -527,6 +546,14 @@ export default function Home() {
         <div className="hero-ctas reveal">
           <a href="#scan" className="btn btn-solid">Launch app</a>
           <a href="#coverage" className="btn btn-line">Read the docs</a>
+          <a
+            href="https://pump.fun/coin/HzwLHbqXfnmXdv9SM65fXmDieU1MpTR9Zg7GWNyjpump"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-line"
+          >
+            $GOTHAM on pump.fun
+          </a>
         </div>
       </section>
 
@@ -547,12 +574,12 @@ export default function Home() {
           <div className="foot-col">
             <h4>Resources</h4>
             <a href="#scan">Docs</a>
-            <a href="#scan">API</a>
+            <a href="#api">API</a>
             <a href="#coverage">Changelog</a>
           </div>
           <div className="foot-col">
             <h4>Company</h4>
-            <a href="#">X / Twitter</a>
+            <a href="https://x.com/gothamintelxyz" target="_blank" rel="noreferrer">X / Twitter</a>
             <a href="#">Telegram</a>
             <a href="#">Contact</a>
           </div>
